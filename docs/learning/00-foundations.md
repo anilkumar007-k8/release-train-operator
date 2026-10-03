@@ -190,7 +190,7 @@ Do these yourself; that's where the learning sticks.
 3. **Watch the controller react.** In `Reconcile`, change `_ = logf.FromContext(ctx)` to:
    ```go
    log := logf.FromContext(ctx)
-   log.Info("reconciling", "release", req.NamespacedName)
+   log.Info("Reconciling Release", "release", req.NamespacedName)
    ```
    Then run `make run` in one terminal. In a second terminal, edit the Release (`kubectl edit release release-sample`). Each change prints a log line. That is the reconcile loop, live.
 
