@@ -4,7 +4,7 @@
 
 Argo Rollouts deploys one *service* safely. Release Train deploys one *feature* safely: across every service it touches, in the right order, and if anything breaks it rolls them all back together.
 
-> **Status:** design stage. No code yet. See [docs/ROADMAP.md](docs/ROADMAP.md).
+> **Status:** Phase 0 (foundations). Project skeleton only; nothing deploys yet. See [docs/ROADMAP.md](docs/ROADMAP.md) and the [learning notes](docs/learning/).
 
 ## The problem
 

@@ -15,9 +15,9 @@ Part-time pace, about 10–15 hours a week. Dates are estimates; add 30–50% if
 
 ## P0: Foundations
 
-- [ ] Go basics for operator development
-- [ ] Kubebuilder project skeleton
-- [ ] Local kind cluster and `make test` working
+- [ ] Go basics for operator development (see [learning notes 00](learning/00-foundations.md))
+- [x] Kubebuilder project skeleton (`delivery.releasetrain.io/v1alpha1`, kind `Release`)
+- [x] Local kind cluster and `make test` working
 - [ ] Demo shop app: frontend, order-api, payment, parts, notification
 
 ## P1 / v0.1: Deploy in order, roll back together
